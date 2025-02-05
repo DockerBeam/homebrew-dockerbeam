@@ -8,7 +8,7 @@ class Dockerbeam < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release", "--bin", "dockerbeam"
-    bin.install "target/release/dockerbeam"
+    system "cargo", "build", "--release", "--bin", "DockerBeam"
+    bin.install "target/release/DockerBeam"
   end
 end
