@@ -1,4 +1,4 @@
-class dockerbeam < Formula
+class DockerBeam < Formula
   desc "A P2P Docker image sharing tool"
   homepage "https://github.com/DockerBeam/DockerBeam"
   url "https://github.com/DockerBeam/DockerBeam/archive/refs/tags/v0.1.0.tar.gz"
